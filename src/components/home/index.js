@@ -48,9 +48,9 @@ export default () => (
                         }}
                         onClick={() => navigate(`/blog/${edge.node.slug}`)} >
                         {edge.node.category.map(category => (
-                            <p className="card_category">{category.category}</p>
+                            <p key={edge.node.id} className="card_category">{category.title}</p>
                         ))}
-                        <p className="card_title">{edge.node.title}</p>
+                        <p key={edge.node.id} className="card_title">{edge.node.title}</p>
                     </div>
                 ))}
             </div>
