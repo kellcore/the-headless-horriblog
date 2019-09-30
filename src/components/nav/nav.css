@@ -1,0 +1,40 @@
+nav {
+    transform: translateY(80px);
+    margin-top: -80px;
+}
+
+.nav_items {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_item_link {
+    margin-left: 40px;
+    font-family: 'Squada One', cursive;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav_item_link:hover {
+    color: #f06666;
+}
+
+.active {
+    color: #f06666;
+}
+
+.nav_item_left {
+    margin-right: auto;
+}
+
+.nav_item_logo {
+    height: 40px;
+}
