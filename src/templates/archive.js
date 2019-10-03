@@ -29,7 +29,7 @@ const Archive = (props) => {
                     <div className='archive_hero' style={{ backgroundImage: `url(${headerImg})` }}>
                     </div>
                     <div className="archive_nav">
-                        <Link to='/blog' className={window.location.href.indexOf('/blog') > 0 ? 'archive_nav_link selected' : 'archive_nav_link'}> Blog </Link>
+                        <Link to='/blog' className={window.location.href.indexOf('/blog') > 0 ? 'archive_nav_link selected' : 'archive_nav_link'}> All </Link>
                         <Link to='/category/contemporary-block' className={window.location.href.indexOf('category/contemporary-block') > 0 ? 'archive_nav_link selected' : 'archive_nav_link'}> Contemporary Block </Link>
                         <Link to='/category/un-block' className={window.location.href.indexOf('category/un-block') > 0 ? 'archive_nav_link selected' : 'archive_nav_link'}> Un Block </Link>
                         <Link to='/category/vampire-block' className={window.location.href.indexOf('category/vampire-block') > 0 ? 'archive_nav_link selected' : 'archive_nav_link'}> Vampire Block </Link>
