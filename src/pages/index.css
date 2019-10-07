@@ -14,21 +14,3 @@
 .view_more:hover {
     color: #f06666;
 }
-
-/* .view_more {
-    width: 124px;
-    height: 38px;
-    border-radius: 5px;
-    background-color: #f06666;
-    color: #ffffff;
-    border: none;
-    font-family: 'Squada One', cursive;
-    font-size: 14px;
-    font-weight: 300;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-  }
-  
-  .view_more:hover {
-    filter: brightness(90%)
-  } */

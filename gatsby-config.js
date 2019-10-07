@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Abbatoir of Awful`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `The Headless Horriblog`,
+    description: `A horror movie review blog inspired by the #31daysofhorror challenge`,
+    author: `kell.dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

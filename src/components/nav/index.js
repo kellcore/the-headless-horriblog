@@ -16,10 +16,10 @@ const Nav = () => (
             <Link className={window.location.href.indexOf('blog') > 0 || window.location.href.indexOf('category') > 0 ? "nav_item_link active" : "nav_item_link"}
                 // if blog or category exists at this url, use active class, if not use regular class
                 to="/blog"> Blog </Link>
-            <Link className={window.location.href.indexOf('about') > 0 ? "nav_item_link active" : "nav_item_link"}
+            {/* <Link className={window.location.href.indexOf('about') > 0 ? "nav_item_link active" : "nav_item_link"}
                 to="/about"> About </Link>
             <Link className={window.location.href.indexOf('credits') > 0 ? "nav_item_link active" : "nav_item_link"}
-                to="/credits"> Credits </Link>
+                to="/credits"> Credits </Link> */}
         </div>
     </nav>
 )
