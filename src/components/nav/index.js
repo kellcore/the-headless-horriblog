@@ -8,7 +8,7 @@ const Nav = () => (
     <nav>
         <div className='nav_items'>
             <a className='nav_item_left' href="/">
-                <img src={logo} alt="Streaming Halloween logo" className="nav_item_logo" />
+                <img src={logo} alt="The Headless Horriblog logo" className="nav_item_logo" />
             </a>
             <Link className={window.location.href.indexOf('contact') > 0 ? "nav_item_link active" : "nav_item_link"}
                 // does contact exist at this url? if it does, we use the class name active, and if it doesn't, we just use the regular class
